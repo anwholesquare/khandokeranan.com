@@ -1,0 +1,181 @@
+.exclusive-font { font-size: 20px;font-family: 'Montserrat';color: black;letter-spacing: 0px;padding: 0px;}
+.threetwo{ height: 250px !important; width: 187px; margin:0px !important; }
+.mb_YTPBar{visibility:hidden !important;}
+.companylogo{height:60px; width:auto;}
+.twocolumnflex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	
+}
+.inline-YTPlayer{
+	margin:10px;
+}
+.service-area {
+background: #ffffff;
+}
+.brand-wrap .single-brand {
+filter:none !important;
+opacity: 1 !important;
+}
+
+.pricetag{
+position: absolute;
+padding: 5px;
+margin: 0px !important;
+left: 0px;
+background: white;
+color: black;
+font-family: 'Montserrat';
+bottom:10px;
+}
+
+
+.single-input,.default-select .nice-select {
+	border-radius: 25px;
+	border: solid 1px #FBE9E7;
+	width: 100%;
+}
+
+
+.calendly-inline-widget{
+	border: solid 1px #e6e6e6;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+}
+
+
+
+.default-select .nice-select .list .option{
+font-weight: 600;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+line-height: 40px;
+min-height: 28px;
+font-size: 14px;
+padding-left: 20px;
+border: solid 1px #FBE9E7;
+border-radius: 25px;
+margin-bottom: 5px;
+}
+
+.default-select .nice-select .list .option.selected {
+color: #29b6f6;
+background: #2cff8a26;
+}
+
+
+.certbutton{
+	position: absolute;
+    bottom: 60px;
+}
+
+.mbcert, .elccert, .ictcert, .startupstudentcert {
+	color: white !important;
+	height:500px;
+}
+.elccert h4, .mbcert h4 , .ictcert h4, .startupstudentcert h4{color: white !important;}
+.elccert:hover{
+background: linear-gradient(0deg,rgb(20 20 20 / 70%), rgb(113 95 105)), url('../img/achievements/pink_decoder_elchackathon_estee_lauder_companies_winner_khandoker_anan.jpg') no-repeat center center;
+}
+
+.elccert{
+background: linear-gradient(0deg,rgb(0 0 0 / 30%), #e2a599), url('../img/achievements/pink_decoder_elchackathon_estee_lauder_companies_winner_khandoker_anan.jpg') no-repeat center center;
+}
+
+.mbcert:hover{
+background: linear-gradient(0deg,rgb(20 20 20 / 70%), rgb(113 95 105)), url(http://lifechord.com.bd/wp-content/gallery/lifechord/mBillionth-award-2017-1.JPG) no-repeat center center;
+}
+.mbcert{
+background: linear-gradient(0deg,rgb(0 0 0 / 30%), #715f69), url(http://lifechord.com.bd/wp-content/gallery/lifechord/mBillionth-award-2017-1.JPG) no-repeat center center;
+}
+
+
+.ictcert:hover{
+background: linear-gradient(0deg,rgb(20 20 20 / 70%), rgb(113 95 105)), url('../img/achievements/NATIONAL ICT AWARD 2019.jpg') no-repeat center center;
+}
+.ictcert{
+background: linear-gradient(0deg,rgb(0 0 0 / 30%), #e45447), url('../img/achievements/NATIONAL ICT AWARD 2019.jpg') no-repeat center center;
+	
+}
+
+.startupstudentcert:hover{
+background: linear-gradient(0deg,rgb(20 20 20 / 70%), rgb(113 95 105)), url('../img/achievements/student_to_startup_winner_chapter_1_khandoker_anan.jpg') no-repeat center center;
+}
+.startupstudentcert{
+background: linear-gradient(0deg,rgb(0 0 0 / 30%), #90acd1), url('../img/achievements/student_to_startup_winner_chapter_1_khandoker_anan.jpg') no-repeat center center;
+}
+
+
+.videoBG{
+    z-index: -1;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.footer-area{
+	background: #8fabd0;
+}
+
+
+
+
+
+@media (min-width: 1281px) {
+/*higher Resolution Desktops*/
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+/*Laptops, Desktops*/
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+/*Laptops, Desktops*/
+.paddingtopinmobile{ padding-top:40px;}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/*Tablets, Ipads (landscape)*/
+.paddingtopinmobile{ padding-top:40px;}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+/*Low Resolution Tablets, Mobiles (Landscape)*/
+.paddingtopinmobile{ padding-top:40px;}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+/*Most of the Smartphones Mobiles (Portrait)*/
+.paddingtopinmobile{ padding-top:40px;}
+
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+	/*CUSTOM NEEDED*/
+	.threetwo{ height: auto !important; width: calc(50vw - 20px) !important; margin:0px !important; }
+
+	
+}
+
+
+@media (max-width: 390px) {
+	.contact-box h4, .twocolumnflex h4 {
+		font-size: 15px;
+	}
+	.job-area .col a {
+		padding: 0px;
+	}
+	.footer-logo img{
+		width: 300px;
+		height: auto !important;
+	}
+
+}
+
+@media (max-width: 991px) {
+.banner-img {
+    display: block !important;
+}
+.offvisibility{
+	visibility: hidden !important;
+}
+}
