@@ -11,6 +11,10 @@
 I understand your desires & needs profoundly in case you are looking forward to developing innovative apps and websites. I develop tech products that inspire, market, and portray your imaginations to your desired audience!
 
 
+![Cover][cover]
+
+[cover]: https://khandokeranan.com/cover.png "Cover Page"
+
 
 BOOK YOUR FREE 30 MINUTE MEETING WITH ME!
 
